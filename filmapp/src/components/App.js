@@ -7,7 +7,7 @@ import HomePage from "./HomePage";
 import axios from "axios";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-require("dotenv").config();
+//require("dotenv").config();
 
 // console.log(process.env.REACT_APP_API_KEY);
 
@@ -24,7 +24,7 @@ class App extends React.Component {
 
   async componentDidMount() {
     const response = await axios.get(
-      `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&page=1`
+      `https://api.themoviedb.org/3/movie/popular?api_key=1d31d678e89c186c5093962e0b2d3f7e&language=en-US&page=1`
     );
     this.setState({ movies: response.data.results });
   }
