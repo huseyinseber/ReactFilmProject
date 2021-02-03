@@ -6,11 +6,11 @@ export default class Menu extends Component {
     return (
       <div>
         <Navbar bg="navbar navbar-dark bg-dark" expand="lg">
-          <Navbar.Brand href="HomePage">Film Sitesi</Navbar.Brand>
+          <Navbar.Brand href="homepage">Film Sitesi</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ">
-              <Nav.Link href="/homepage">Anasayfa</Nav.Link>
+              <Nav.Link href="homepage">Anasayfa</Nav.Link>
               <Nav.Link href="/">Filmleri Listele</Nav.Link>          
             </Nav>
           </Navbar.Collapse>
