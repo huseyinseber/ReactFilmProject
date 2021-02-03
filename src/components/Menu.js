@@ -11,8 +11,8 @@ export default class Menu extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ">
-              <Link to="homepage">Anasayfa</Link>
-              <Link to="/">Filmleri Listele</Link>          
+              <Link className="nav-link" to="homepage">Anasayfa</Link>
+              <Link className="nav-link" to="/">Filmleri Listele</Link>          
             </Nav>
           </Navbar.Collapse>
         </Navbar>
