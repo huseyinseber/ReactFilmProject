@@ -7,7 +7,7 @@ export default class Menu extends Component {
     return (
       <div>
         <Navbar bg="navbar navbar-dark bg-dark" expand="lg">
-          <Link className="navbar-brand" to="/homepage">Film Sitesi</Link>
+          <Link className="navbar-brand" to="homepage">Film Sitesi</Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ">
