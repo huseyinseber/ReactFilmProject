@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# React Film Projesi
+
+Projede App--> parent 
+        Dropdown,HomePage,Menu,MovieList,SearchBar-->child componentleri bulunmaktadır.
+        Gerekli film verileri The Movie Database (TMDb) siteden api den alınmıştır.
+        React Router,Bootstrap,Axios,React-Bootstrap gibi kütüphaneler kullanılmıştır.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
